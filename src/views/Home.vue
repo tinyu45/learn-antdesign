@@ -1,6 +1,6 @@
 
 <template>
-    <a-carousel arrows autoplay>    
+    <a-carousel arrows autoplay effect="scrollx">    
         <div class="item"><img src="@/assets/images/item-01.jpg"></div>
         <div class="item"> <img src="@/assets/images/item-02.jpg"></div>
         <div class="item"><img src="@/assets/images/item-03.jpg"></div>
@@ -46,7 +46,7 @@ activated() {}, //如果页面有keep-alive缓存功能，这个函数会触发
 <style lang="scss" scoped>
     /* @import url(); 引入公共css类 */
    .ant-carousel{
-        margin: 20px 0; 
+        margin-bottom: 20px; 
         width: 100%;
         text-align: center;
         .item{

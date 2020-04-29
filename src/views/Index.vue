@@ -17,7 +17,8 @@
         <a-menu-item key="contact" >联系</a-menu-item>
       </a-menu>
     </a-layout-header>
-    <a-layout-content :style="{ padding: '0 50px', marginTop: '64px' }">
+    <!-- <a-layout-content :style="{ padding: '0 50px', marginTop: '64px' }"> -->
+    <a-layout-content :style="{ marginTop: '64px' }">
       <router-view/>
       <!-- <a-breadcrumb :style="{ margin: '16px 0' }">
         <a-breadcrumb-item>Home</a-breadcrumb-item>
@@ -69,6 +70,8 @@ export default {
             height: 60px;
             vertical-align: middle;
             border-radius: 30px;
+            overflow: hidden;
+            border: 2px solid #666;
           }
       }
 </style>
